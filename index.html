@@ -11,7 +11,7 @@
 	  font-size: 36px;
 	  text-align: center;
       }
-
+      
       h3 {
 	  color: black;
 	  font-size: 20px;
@@ -35,16 +35,11 @@
 	  border: 1px solid #dddddd;
 	  text-align: left;
 	  padding: 8px;
+	  width: 50%;
       }
 
       tr:nth-child(even) {
 	  background-color: #dddddd;
-      }
-
-      div {
-	  width: 600px;
-	  position: relative;
-	  left: 34%;
       }
 
       footer {
@@ -53,31 +48,41 @@
 	  text-align: center;
 	  padding: 3px;
       }
+
+      html {
+	  max-width: 75%;
+	  padding-left: 2%;
+	  padding-right: 3%;
+	  margin: 0 auto;
+	  background: beige;
+      }
       
     </style>
   </head>
   <body>
-    <h1 style="head">
-      hello, alex haley!
-    </h1>
+    <h1>hello, alex haley!</h1>
+    <hr/>
     
     <p>this is my [Alex Haley's] personal web pages.</p>
     <p>[btw if you have no idea where you are, i am independent developer and researcher focused on low-level programming stuff]</p>
+    <hr/>
     <br>
     <h3>all of my published articles are listed here:</h3>
     
-    <div>
-      <table>
-	<tr>
-	  <th>Date</th>
-	  <th>Page</th>
-	</tr>
-	<tr>
-	  <td>03.23.2025 0:56</td>
-	  <td>init page</td>
-	</tr>
-      </table>
-    </div>
+    <table>
+      <tr>
+	<th>Date</th>
+	<th>Page</th>
+      </tr>
+      <tr>
+	<td>03.23.2025</td>
+	<td><a href="articles/efi_layer.html">efi layer</a></td>
+      </tr>
+      <tr>
+	<td>03.23.2025</td>
+	<td><a href="articles/rant_on_os.html">rant on operating systems</a></td>
+      </tr>
+    </table>
 
     <br>
     
